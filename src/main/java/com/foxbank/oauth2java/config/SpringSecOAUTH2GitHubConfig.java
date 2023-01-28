@@ -24,7 +24,7 @@ public class SpringSecOAUTH2GitHubConfig {
         return http.build();
     }
 
-    @Bean
+    /*@Bean
     public ClientRegistrationRepository clientRepository() {
         ClientRegistration clientReg = clientRegistration();
         return new InMemoryClientRegistrationRepository(clientReg);
@@ -33,6 +33,6 @@ public class SpringSecOAUTH2GitHubConfig {
     private ClientRegistration clientRegistration() {
 		return CommonOAuth2Provider.GITHUB.getBuilder("github").clientId(githubClientId)
 	           .clientSecret(githubClientSecret).build();
-	 }
+	 }*/
 
 }
